@@ -21,8 +21,15 @@
 
 ![План решения](decision.png "План решения")
 
-1. [Загрузить исходные данные и провести их анализ](https://github.com/GreenArt11/sberkaggle/blob/main/1%20Importing%20files.ipynb)
-2. [Собрать датасет операций](https://github.com/GreenArt11/sberkaggle/blob/main/2%20transactions%20set.ipynb)
+1. [Загрузка исходных данных и их анализ](https://github.com/GreenArt11/sberkaggle/blob/main/1%20Importing%20files.ipynb)
+2. Сборка датасета операций
+   
+    2.1. [Извлечение фичей из справочников](https://github.com/GreenArt11/sberkaggle/blob/main/2.1%20dicts%20cleaning.ipynb)
+
+    2.2. [Сборка сета и отформатирование его полей](https://github.com/GreenArt11/sberkaggle/blob/main/2.2%20trx%20set%20formatting.ipynb)
+
+    2.3. [Привязка даты времени к нормальным значениям](https://github.com/GreenArt11/sberkaggle/blob/main/2.3%20date%20linking.ipynb)
+    
 3. Собрать датасет клиентов
 4. Составить несколько прогнозов разных моделей
 5. Выбрать лучшее решение
